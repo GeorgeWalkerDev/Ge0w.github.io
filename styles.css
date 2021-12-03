@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-bg-color: #222629;
+  --secondary-bg-color: #474b4f;
+  --third-bg-color: #6b6e70;
+  --main-font-color: #86c232;
+  --secondary-font-color: #61892f;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.navbar-button {
+  width: 5rem;
+}
+
+.navbar-custom {
+  height: 100px;
+  background-color: var(--secondary-bg-color);
+  color: var(--main-font-color);
+}
+
+.navbar-custom a {
+  color: var(--main-font-color);
+}
+
+.navbar-custom a:hover {
+  color: var(--secondary-font-color);
+}
+
+.welcome-section {
+  height: calc(100vh - 100px);
+  background-color: var(--main-bg-color);
+  color: var(--main-font-color);
+}
+
+.project-section {
+  height: 100vh;
+  background-color: var(--secondary-bg-color);
+  color: var(--main-font-color);
+}
+
+#contact-section {
+  height: 100vh;
+  background-color: var(--main-bg-color);
+  color: var(--main-font-color);
+}
+
+.project {
+  background-color: var(--main-bg-color);
+  color: var(--main-font-color);
+}
+
+.project h3 {
+  margin-bottom: 0;
+}
+
+.project-header {
+  border-bottom: 3px solid var(--main-font-color);
+}
