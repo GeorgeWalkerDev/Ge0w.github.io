@@ -54,10 +54,26 @@ main {
   color: var(--main-font-color);
 }
 
-.project-section {
+.welcome-section img {
+  border-radius: 50%;
+}
+
+.summary-section {
   min-height: calc(100vh - 100px);
   height: auto;
   background-color: var(--secondary-bg-color);
+  color: var(--main-font-color);
+}
+
+.summary-section p {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.project-section {
+  min-height: calc(100vh - 100px);
+  height: auto;
+  background-color: var(--main-bg-color);
   color: var(--main-font-color);
 }
 
@@ -69,6 +85,11 @@ main {
 .card {
   margin: 1rem;
   width: 18rem;
+}
+
+.project-section a:hover {
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 .card-body {
@@ -93,11 +114,11 @@ main {
 
 .card-border {
   border-radius: 2px;
-  border-color: var(--main-bg-color);
+  border-color: var(--secondary-bg-color);
 }
 
 .project {
-  background-color: var(--main-bg-color);
+  background-color: var(--secondary-bg-color);
   color: var(--main-font-color);
 }
 
@@ -107,6 +128,12 @@ main {
 
 .project-header {
   border-bottom: 3px solid var(--main-font-color);
+}
+
+#contact-section {
+  height: calc(100vh - 100px);
+  background-color: var(--secondary-bg-color);
+  color: var(--main-font-color);
 }
 
 #contact-section a {
