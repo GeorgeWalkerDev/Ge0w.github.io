@@ -144,3 +144,12 @@ main {
 #contact-section a:hover {
   color: var(--secondary-font-color);
 }
+
+@media screen and (max-width: 480px) {
+  #contact-section a {
+    font-size: 1rem;
+  }
+  .project-section h2 {
+    font-size: 1.5rem;
+  }
+}
