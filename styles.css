@@ -79,6 +79,15 @@ main {
   color: var(--main-font-color);
 }
 
+.project-section a {
+  margin: 1rem;
+}
+
+.project-section .card-body {
+  border-bottom-left-radius: calc(0.25rem - 1px);
+  border-bottom-right-radius: calc(0.25rem - 1px);
+}
+
 .card h5 {
   margin-bottom: 0;
   text-align: center;
@@ -106,11 +115,6 @@ main {
 
 .container .card {
   background-color: var(--main-bg-color);
-}
-
-.card-border {
-  border-radius: 2px;
-  border-color: var(--secondary-bg-color);
 }
 
 .project {
